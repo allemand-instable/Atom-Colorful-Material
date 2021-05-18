@@ -5,7 +5,7 @@
 	"colors": {
 		"activityBar.activeBorder": "#009688",
 		"activityBar.background": "#20292e",
-		"activityBar.dropBackground": "#009688",
+		// "activityBar.dropBackground": "#009688",
 		"activityBar.foreground": "#a7b6b8",
 		"scrollbar.shadow": "#263238",
 		"activityBarBadge.background": "#009688",
@@ -113,7 +113,7 @@
 			"punctuation.section.media.begin.bracket.curly.css",
 			"punctuation.section.media.end.bracket.curly.css",
 			"punctuation.separator.list.comma.css",
-			"meta.paragraph.markdown",
+			// "meta.paragraph.markdown",
 			"text.html.markdown",
 			"text.html.basic",
 			"punctuation.definition.variable.less",
@@ -155,8 +155,8 @@
 			"string.quoted",
 			"meta.object-literal.key",
 			"source.coffee.embedded.source",
-			"entity.name.section.markdown",
-			"punctuation.definition.heading.markdown",
+			// "entity.name.section.markdown",
+			// "punctuation.definition.heading.markdown",
 			"string.unquoted.plain.out.yaml",
 			"string.template.js",
 			"string.interpolated.jade",
@@ -226,8 +226,8 @@
 			"storage.modifier.cs",
 			"keyword.other.class.cs",
 			"keyword.type.cs",
-			"markup.italic.markdown",
-			"punctuation.definition.italic.markdown",
+			// "markup.italic.markdown",
+			// "punctuation.definition.italic.markdown",
 			"keyword.package.go",
 			"keyword.import.go",
 			"keyword.function.go",
@@ -269,9 +269,9 @@
 			"entity.name.function",
 			"support.function",
 			"variable.other.property",
-			"punctuation.definition.string.begin.markdown",
-			"punctuation.definition.string.end.markdown",
-			"markup.quote.markdown",
+			//"punctuation.definition.string.begin.markdown",
+			//"punctuation.definition.string.end.markdown",
+			//"markup.quote.markdown",
 			"meta.function-call.generic.python",
 			"keyword.other.special-method.ruby",
 			"entity.name.type.js",
@@ -289,7 +289,7 @@
 		},
 		{
 		  "scope": [
-			"markup.quote.markdown"
+			// "markup.quote.markdown"
 		  ],
 		  "settings": {
 			"fontStyle": "italic",
@@ -321,16 +321,7 @@
 			"foreground": "#FFCB6B"
 		  }
 		},
-		{
-		  "scope": [
-			"markup.bold.markdown",
-			"punctuation.definition.bold.markdown"
-		  ],
-		  "settings": {
-			"fontStyle": "bold",
-			"foreground": "#FFCB6B"
-		  }
-		},
+		
 		{
 		  "scope": [
 			"variable.language.super",
@@ -430,6 +421,295 @@
 			  "foreground": "#e66767",
 			  "fontStyle": "bold"
 			}
-		  }
+		  },
+
+		  // CUSTOM | MARKDOWN
+		  {
+			"name" : "CUSTOM - markdown h1",
+			"scope" : [
+			  "punctuation.definition.heading.markdown"
+			],
+			"settings": {
+			  "foreground": "#76aaa3",
+			  "fontStyle": "bold"
+			}
+		  },
+		  {
+			"name" : "CUSTOM - markdown h1",
+			"scope" : [
+			  "heading.1.markdown",
+			],
+			"settings": {
+			  "foreground": "#e66767",
+			  "fontStyle": "bold"
+			}
+		  },
+		  {
+			"name" : "CUSTOM - markdown h2",
+			"scope" : [
+			  "heading.2.markdown",
+			],
+			"settings": {
+			  "foreground": "#60e292",
+			  "fontStyle": "bold"
+			}
+		  },
+		  {
+			"name" : "CUSTOM - markdown h3",
+			"scope" : [
+			  "heading.3.markdown",
+			],
+			"settings": {
+			  "foreground": "#a193f0",
+			  "fontStyle": "bold"
+			}
+		  },
+		  {
+			"name" : "CUSTOM - markdown h4",
+			"scope" : [
+			  "heading.4.markdown",
+			],
+			"settings": {
+			  "foreground": "#f8a75b",
+			  "fontStyle": "bold"
+			}
+		  },
+		  {
+			"name" : "CUSTOM - markdown h5",
+			"scope" : [
+			  "heading.5.markdown",
+			],
+			"settings": {
+			  "foreground": "#949494",
+			  "fontStyle": "bold"
+			}
+		  },
+
+		  {
+			"name" : "CUSTOM - markdown h6",
+			"scope" : [
+			  "heading.6.markdown",
+			],
+			"settings": {
+			  "foreground": "#d6d6d6",
+			  "fontStyle": "bold"
+			}
+		  },
+
+		  // markdown inline
+
+		  {
+			"name" : "CUSTOM - markdown math punctuation dollar inline",
+			"scope" : [
+			  "inline-dollars",
+			  "punctuation.definition.raw.markdown"
+			],
+			"settings": {
+			  "foreground": "#ff806f",
+			  "fontStyle": "bold"
+			}
+		  },
+
+		  {
+			"name" : "CUSTOM - markdown math punctuation dollar inline",
+			"scope" : [
+			  "markup.inline.raw"
+			],
+			"settings": {
+			  "foreground": "#ffd16f",
+			  "fontStyle": ""
+			}
+		  },
+
+
+		  // MARDOWN LATEX
+		  // using MARKDOWN MATH PACKAGE
+		 // Name: Markdown Math
+		 // Id: koehlma.markdown-math
+		 // Description: Adds math support to VS Code's built-in markdown preview.
+		 // Version: 0.1.0
+		 // Publisher: Maximilian Köhl
+		 // VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=koehlma.markdown-math
+
+
+		 {
+			"name" : "CUSTOM - markdown math punctuation dollar inline",
+			"scope" : [
+			  "punctuation.definition.math.inline.markdown"
+			],
+			"settings": {
+			  "foreground": "#ff6f6f",
+			  "fontStyle": "bold"
+			}
+		  },
+
+		  {
+			"name" : "CUSTOM - markdown math function",
+			"scope" : [
+			  "support.function.katex"
+			],
+			"settings": {
+			  "foreground": "#ffbf5f",
+			  "fontStyle": "bold"
+			}
+		  },
+
+		  {
+			"name" : "CUSTOM - markdown math embedded block katex",
+			"scope" : [
+			  "meta.embedded.block.katex"
+			],
+			"settings": {
+			  "foreground": "#ed9df5",
+			  "fontStyle": "bold"
+			}
+		  },
+
+
+
+		  // list
+
+		  {
+			"name" : "CUSTOM - markdowninline punctuation",
+			"scope" : [
+			  "punctuation.definition.list.begin.markdown"
+			],
+			"settings": {
+			  "foreground": "#ff6f6f",
+			  "fontStyle": "bold"
+			}
+		  },
+		  
+		  {
+			"name" : "CUSTOM - markdown code block",
+			"scope" : [
+			  "fenced_code.block.language.markdown"
+			],
+			"settings": {
+			  "foreground": "#ff8fe7",
+			  "fontStyle": "italic"
+			}
+		  },
+		  {
+			"name" : "CUSTOM - markdown quote",
+			"scope" : [
+			  "markup.quote",
+			  "markup.quote.markdown"
+			],
+			"settings": {
+			  "foreground": "#6dc9f3",
+			  "fontStyle": "bold",
+
+			}
+		  },
+		  {
+			"scope": [
+			  "markup.bold.markdown",
+			  "punctuation.definition.bold.markdown"
+			],
+			"settings": {
+			  "fontStyle": "bold",
+			  "foreground": "#FFCB6B"
+			}
+		  },
+
+
+		  // RAINBOW CSV PACKAGE
+		  // extension id : mechatroner.rainbow-csv
+		  // VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv
+
+		  {
+			"scope": [
+			  "rainbow1"
+			],
+			"settings": {
+			  "foreground": "#6bffce"
+			}
+		  },
+
+		  {
+			"scope": [
+			  "keyword.rainbow2"
+			],
+			"settings": {
+			  "foreground": "#6bd5ff"
+			}
+		  },
+
+		  {
+			"scope": [
+			  "entity.name.function.rainbow3"
+			],
+			"settings": {
+			  "foreground": "#b06bff"
+			}
+		  },
+
+		  {
+			"scope": [
+			  "comment.rainbow4"
+			],
+			"settings": {
+			  "foreground": "#ff6b97"
+			}
+		  },
+
+		  {
+			"scope": [
+			  "string.rainbow5"
+			],
+			"settings": {
+			  "foreground": "#ff956b"
+			}
+		  },
+
+		  {
+			"scope": [
+			  "variable.parameter.rainbow6"
+			],
+			"settings": {
+			  "foreground": "#7ee26a"
+			}
+		  },
+
+		  {
+			"scope": [
+			  "constant.numeric.rainbow7"
+			],
+			"settings": {
+			  "foreground": "#fff06b"
+			}
+		  },
+
+		  {
+			"scope": [
+			  "entity.name.type.rainbow8"
+			],
+			"settings": {
+			  "foreground": "#6b9aff"
+			}
+		  },
+
+		  {
+			"scope": [
+			  "markup.bold.rainbow9"
+			],
+			"settings": {
+			  "foreground": "#ff6b90"
+			}
+		  },
+
+		  {
+			"scope": [
+			  "invalid.rainbow10"
+			],
+			"settings": {
+			  "fontStyle": "bold",
+			  "foreground": "#FFCB6B"
+			}
+		  },
+
+		  
+
 	  ]
 	}
