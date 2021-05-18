@@ -423,6 +423,23 @@
 			}
 		  },
 
+		  {
+			"name": "CUSTOM | escape character",
+			"scope" : [ "constant.character.escape.python" ],
+			"settings": {
+				"foreground": "#00d9ff",
+				"fontStyle": "italic"
+			}
+
+		  },
+		  {
+			  "name": "CUSTOM | Exception",
+			  "scope" : ["support.type.exception.python"],
+			  "settings": {
+				  "foreground": "#eb3b3b",
+				  "fontStyle": "bold"
+			  }
+		  },
 		  // CUSTOM | MARKDOWN
 		  {
 			"name" : "CUSTOM - markdown h1",
