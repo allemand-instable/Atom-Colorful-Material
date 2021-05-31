@@ -327,6 +327,7 @@
 			"variable.language.super",
 			"punctuation.definition.metadata.markdown",
 			"variable.language.special.self.python",
+			"variable.language.special.cls.python",
 			"punctuation.definition.interpolation.begin.bracket.curly.scss",
 			"punctuation.definition.interpolation.end.bracket.curly.scss",
 			"variable.language.this.js",
@@ -350,7 +351,7 @@
 			"support.type.property-name.media.css",
 			"support.constant.parity.css",
 			"meta.object-literal.key.js",
-			"meta.object-literal.key.ts"
+			"meta.object-literal.key.ts",
 		  ],
 		  "settings": {
 			"foreground": "#73d1c8"
@@ -370,7 +371,15 @@
 
 		// CUSTOM MODIFICATIONS
 
-
+		{
+		  "name": "CUSTOM | Arguments",
+		  "scope": [
+			"meta.function-call.arguments.python" // CUSTOM
+		  ],
+		  "settings": {
+			"foreground": "#fffeb5"
+		  }
+		},
 		{
 			"name" : "CUSTOM - indice de liste",
 			"scope" : [
@@ -424,8 +433,9 @@
 		  },
 
 		  {
-			"name": "CUSTOM | escape character",
-			"scope" : [ "constant.character.escape.python" ],
+			"name": "CUSTOM | escape character and F String variable",
+			"scope" : [ "constant.character.escape.python",
+						"meta.fstring.python" ],
 			"settings": {
 				"foreground": "#00d9ff",
 				"fontStyle": "italic"

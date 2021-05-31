@@ -4,6 +4,17 @@ All notable changes to the "atom-colorful-material" extension will be documented
 
 > Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## Mardown Update | 0.2.3
+
+### Added
+
+- Python
+  - fstring
+    - variable
+  - class variable
+  - arguments
+
+
 ## Mardown Update | 0.2.2
 
 ### Added

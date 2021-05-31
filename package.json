@@ -2,7 +2,7 @@
     "name": "atom-colorful-material",
     "displayName": "Atom Colorful Material",
     "description": "A modified version of Atom Material color theme, whith added color syntax for better readability and understanding of the code",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "publisher": "AllemandInstable",
     "repository": {
         "type": "git",
