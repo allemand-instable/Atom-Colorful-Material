@@ -4,6 +4,14 @@ All notable changes to the "atom-colorful-material" extension will be documented
 
 > Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## PlantUML 0.4
+
+### Added
+
+- PlantUML support
+  
+
+
 ## Mardown Update | 0.2.3
 
 ### Added

@@ -736,6 +736,54 @@
 			}
 		  },
 
+
+		// CUSTOM PLANTUML
+
+		{
+		  "name": "CUSTOM PUML | Keyword",
+		  "scope": [
+			"keyword.plantuml" // CUSTOM
+		  ],
+		  "settings": {
+			"foreground": "#fded5e"
+		  }
+		},
+
+		{
+		  "name": "CUSTOM PUML | MarkupBold",
+		  "scope": [
+			"markup.bold.plantuml" // CUSTOM
+		  ],
+		  "settings": {
+			"foreground": "#F78C6A",
+			"fontStyle": "bold"
+
+		  }
+		},
+
+		{
+		  "name": "CUSTOM PUML | type",
+		  "scope": [
+			"string.interpolated.plantuml" // CUSTOM
+		  ],
+		  "settings": {
+			"foreground": "#1dd1a1"
+
+		  }
+		},
+
+		{
+		  "name": "CUSTOM PUML | @start",
+		  "scope": [
+			"entity.name.type.plantuml" // CUSTOM
+		  ],
+		  "settings": {
+			"foreground": "#fd6eb1",
+			"fontStyle": "bold"
+
+		  }
+		},
+
 		  
 
 	  ]
