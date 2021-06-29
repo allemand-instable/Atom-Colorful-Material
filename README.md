@@ -13,3 +13,7 @@ This is a more colorful version of Atom Material Theme, for better readability a
 ## Python Syntax
 
 ![](img/Code_svSTYliVyv.png)
+
+## CSV Syntax
+
+![](img/Code_ybakuPObWB.png)
