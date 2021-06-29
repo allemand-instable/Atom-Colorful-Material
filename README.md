@@ -8,6 +8,7 @@ Hand modified language syntaxes :
 
 - Python
 - Markdown
+- CSV
 - PlantUML
 
 **Enjoy!**
