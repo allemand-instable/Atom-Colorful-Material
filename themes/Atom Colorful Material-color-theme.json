@@ -784,7 +784,80 @@
 		  }
 		},
 
-		  
+		// CUSTOM LOG
+
+		{
+		  "name": "CUSTOM LOG | INFO",
+		  "scope": [
+			"log.info" // CUSTOM
+		  ],
+		  "settings": {
+			"foreground": "#1dd1a1",
+			"fontStyle": "bold"
+
+		  }
+		},
+
+		{
+		  "name": "CUSTOM LOG | DEBUG",
+		  "scope": [
+			"log.debug" // CUSTOM
+		  ],
+		  "settings": {
+			"foreground": "#F78C6A",
+			"fontStyle": "bold",
+
+		  }
+
+		},
+
+		{
+		  "name": "CUSTOM LOG | WARNING",
+		  "scope": [
+			"log.warning" // CUSTOM
+		  ],
+		  "settings": {
+			"foreground": "#fded5e",
+			"fontStyle": "bold"
+
+		  }
+		},
+
+		{
+		  "name": "CUSTOM LOG | ERROR",
+		  "scope": [
+			"log.error" // CUSTOM
+		  ],
+		  "settings": {
+			"foreground": "#fd6eb1",
+			"fontStyle": "bold"
+
+		  }
+		},
+
+		{
+		  "name": "CUSTOM LOG | CRITICAL",
+		  "scope": [
+			"log.critical" // CUSTOM
+		  ],
+		  "settings": {
+			"foreground": "#b06bff",
+			"fontStyle": "bold"
+
+		  }
+		},
+		
+		{
+		  "name": "CUSTOM LOG | STRING",
+		  "scope": [
+			"log.string" // CUSTOM
+		  ],
+		  "settings": {
+			"foreground": "#7ee26a",
+			"fontStyle": "italic"
+
+		  }
+		},
 
 	  ]
 	}
