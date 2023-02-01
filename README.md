@@ -10,6 +10,10 @@ Hand modified language syntaxes :
 - Markdown
 - CSV
 - PlantUML
+- C
+- R
+- Rust
+- LaTex
 
 **Enjoy!**
 
