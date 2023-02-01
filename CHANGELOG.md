@@ -4,6 +4,21 @@ All notable changes to the "atom-colorful-material" extension will be documented
 
 > Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## Nice stuff | 0.7
+
+### Added
+
+- Rust
+- R
+- C
+- Latex
+
+### modified
+
+- Python
+  - functions colors
+  - function arguments colors
+
 ## PlantUML 0.4
 
 ### Added

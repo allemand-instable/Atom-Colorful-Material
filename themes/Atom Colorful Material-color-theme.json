@@ -167,11 +167,14 @@
 		  }
 		},
 		{
+		  "name": "Functions parameters",
 		  "scope": [
 			"constant.numeric",
 			"variable.parameter.function",
 			"variable.parameter.function-call",
-			"keyword.other.unit"
+			"keyword.other.unit",
+			"meta.function.definition.rust variable.other.rust",
+			"meta.function-call.arguments.r"
 		  ],
 		  "settings": {
 			"foreground": "#F78C6A"
@@ -248,10 +251,18 @@
 			"storage.modifier.js",
 			"storage.modifier.ts",
 			"storage.modifier.tsx",
-			"keyword.type.graphql"
+			"keyword.type.graphql",
+			"keyword.operator.arrow",
+			"punctuation.separator.annotation.result.python",
+			"keyword.other.fn.rust",
+			"keyword.other",
+			"storage.modifier.mut",
+			"keyword.operator.other",
+			
+			
 		  ],
 		  "settings": {
-			"foreground": "#C792EA"
+			"foreground": "#f47bf4"
 		  }
 		},
 		{
@@ -266,7 +277,7 @@
 		},
 		{
 		  "scope": [
-			"entity.name.function",
+			// "entity.name.function",
 			"support.function",
 			"variable.other.property",
 			//"punctuation.definition.string.begin.markdown",
@@ -374,7 +385,8 @@
 		{
 		  "name": "CUSTOM | Arguments",
 		  "scope": [
-			"meta.function-call.arguments.python" // CUSTOM
+			"meta.function-call.arguments.python", // CUSTOM
+			"meta.function.call.rust variable.other.rust"
 		  ],
 		  "settings": {
 			"foreground": "#fffeb5"
@@ -801,7 +813,8 @@
 		{
 		  "name": "CUSTOM LOG | DEBUG",
 		  "scope": [
-			"log.debug" // CUSTOM
+			"log.debug", // CUSTOM
+			
 		  ],
 		  "settings": {
 			"foreground": "#F78C6A",
@@ -859,5 +872,132 @@
 		  }
 		},
 
+		// RUST
+
+		{
+			"name": "namespace | question operator",
+			"scope":[
+				"entity.name.namespace",
+				"entity.namespace",
+				
+				"keyword.operator.question"
+			],
+			"settings": {
+				"foreground": "#fded5e",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "macro | C type",
+			"scope":[
+				"entity.name.function.macro",
+				"entity.name.type.struct",
+				"storage.type.built-in.primitive"
+			],
+			"settings": {
+				"foreground": "#fd9644",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "macro",
+			"scope":[
+				"entity.name.function.macro.rules"
+			],
+			"settings": {
+				"foreground": "#fc5c65",
+				"fontStyle": "bold"
+			}
+		},
+
+		{
+			"name": "type",
+			"scope":[
+				"meta.function.definition.rust entity.name.type",
+				"meta.function.parameters.python",
+				"meta.function.environment.general.latex",
+				"meta.function.section.subsection.latex",
+				"meta.function.section.section.latex",
+				"meta.function.section.chapter.latex",
+				"meta.function-call.arguments.r variable.other.r",
+				"meta.bracket.square.access",
+				
+			],
+			"settings": {
+				"foreground": "#f5dc79",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "functions",
+			"scope":[
+				"entity.name.function",
+				"entity.name.function.member",
+				"support.function.r",
+				"variable.function.r"
+			],
+			"settings": {
+				"foreground": "#64beff",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "semicolon",
+			"scope":[
+				"punctuation.semi.rust"
+			],
+			"settings": {
+				"foreground": "#eef5f1",
+				"fontStyle": "bold",
+			}
+		},
+
+
+
+		// LATEX
+		{
+			"name": "latex - math command",
+			"scope" : [
+				"constant.other.general.math",
+			],
+			"settings": {
+				"foreground": "#f47bf4",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "latex - math command",
+			"scope" : [
+				"punctuation.definition.constant.math"
+			],
+			"settings": {
+				"foreground": "#7bd4f4",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "latex - math character",
+			"scope" : [
+				"constant.character.math"
+			],
+			"settings": {
+				"foreground": "#7bd4f4",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "pointer access",
+			"scope" :[
+				"variable.other.object.access"
+			],
+			"settings": {
+				"foreground": "#dcadfa",
+				"fontStyle": ""
+			}
+		}
 	  ]
 	}
