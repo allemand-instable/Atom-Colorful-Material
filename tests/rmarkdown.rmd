@@ -1,0 +1,48 @@
+---
+title: "R Markdown Example"
+output: html_document
+---
+
+# Header 1
+
+## Header 2
+
+### Header 3
+
+This is a text paragraph. You can include *italic text*, **bold text**, and `inline code`.
+
+- Bullet list item 1
+- Bullet list item 2
+    - Nested item
+
+1. Numbered list item 1
+2. Numbered list item 2
+
+[Link to RStudio](https://www.rstudio.com/)
+
+![RStudio Logo](https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-logo-flat.png)
+
+| Column 1 | Column 2 |
+|----------|----------|
+| Row 1    | 1        |
+| Row 2    | 2        |
+
+Here's a LaTeX equation:
+
+$$
+y = mx + b
+$$
+
+Here's a code chunk:
+
+```{r}
+# Variable declaration
+x <- 10
+
+# Function definition
+square <- function(n) {
+    return(n^2)
+}
+
+# Print statement
+print(square(x))

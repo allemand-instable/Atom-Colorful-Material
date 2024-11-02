@@ -1,0 +1,132 @@
+defaults:
+  primary: &primary '#009688'
+  secondary: &secondary '#20292e'
+  tertiary: &tertiary '#a7b6b8'
+  quaternary: &quaternary '#263238'
+  quinary: &quinary '#d4d4d4'
+
+activityBar:
+  activeBorder: *primary
+  background: *secondary
+  foreground: *tertiary
+  badgeBackground: *primary
+
+scrollbar:
+  shadow: *quaternary
+  slider:
+    activeBackground: *primary
+    background: *secondary
+    hoverBackground: *secondary
+
+diffEditor:
+  insertedTextBackground: '#00ff001a'
+  removedTextBackground: '#ff00001a'
+
+dropdown:
+  background: *secondary
+
+editor:
+  background: *quaternary
+  findMatchBackground: *primary
+  foreground: *quinary
+  lineHighlightBackground: '#212b30'
+  selectionBackground: '#3b4d56'
+  cursorForeground: *primary
+  lineNumberForeground: '#3e4b50'
+  overviewRulerFindMatchForeground: '#0000ff'
+  widget:
+    background: '#232e33'
+    border: '#29363d'
+  suggestWidget:
+    background: '#29363d'
+    border: '#29363d'
+    foreground: '#e6f5f3'
+    highlightForeground: '#e6f5f3'
+    selectedBackground: *primary
+  bracketMatch:
+    background: '#354044'
+    border: '#FF000000'
+  group:
+    dropBackground: *primary
+    headerTabsBackground: '#232e33'
+
+focusBorder: '#2c383d'
+
+gitDecoration:
+  conflictingResourceForeground: '#f69864'
+  deletedResourceForeground: '#EF5350'
+  ignoredResourceForeground: '#6a777a'
+  modifiedResourceForeground: '#FFCA28'
+  untrackedResourceForeground: '#8BC34A'
+
+input:
+  background: *secondary
+  foreground: '#ffffff'
+  placeholderForeground: '#717e82'
+
+list:
+  activeSelectionBackground: *primary
+  activeSelectionForeground: '#dff5f3'
+  dropBackground: *primary
+  focusBackground: '#076b61'
+  highlightForeground: '#eeffff'
+  hoverBackground: '#2c383d'
+  hoverForeground: *tertiary
+  inactiveFocusBackground: *primary
+  inactiveSelectionBackground: '#2c383d'
+  inactiveSelectionForeground: '#dff5f3'
+
+panel:
+  border: '#232e33'
+  background: '#273237'
+  titleActiveBorder: *primary
+
+pickerGroup:
+  border: *primary
+  foreground: *primary
+
+sideBar:
+  background: '#232e33'
+  foreground: *tertiary
+  sectionHeader:
+    background: *secondary
+    foreground: *tertiary
+  titleForeground: '#bbbbbb'
+
+statusBar:
+  background: '#232e33'
+  foreground: *tertiary
+
+tab:
+  activeBackground: '#232e33'
+  activeBorder: *primary
+  activeForeground: '#eeffff'
+  border: '#232e33'
+  inactiveBackground: '#232e33'
+  inactiveForeground: '#a1b0b2'
+
+terminal:
+  ansiBlack: '#313131'
+  ansiBlue: '#4fb6f7'
+  ansiBrightBlack: '#708284'
+  ansiBrightBlue: '#4fb6f7'
+  ansiBrightCyan: '#00b9cc'
+  ansiBrightGreen: '#cddc39'
+  ansiBrightMagenta: '#e23673'
+  ansiBrightRed: '#ff5d4e'
+  ansiBrightWhite: '#e6e5e5'
+  ansiBrightYellow: '#ffcb43'
+  ansiCyan: '#00b9cc'
+  ansiGreen: '#cddc39'
+  ansiMagenta: '#e23673'
+  ansiRed: '#ff5d4e'
+  ansiWhite: '#e6e5e5'
+  ansiYellow: '#ffcb43'
+  background: '#273237'
+  foreground: *quinary
+
+titleBar:
+  activeBackground: '#222d32'
+
+debugToolBar:
+  background: '#232e33'

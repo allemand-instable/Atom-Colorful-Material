@@ -1,0 +1,43 @@
+---
+// Importing components
+import MyComponent from './MyComponent.astro';
+import { useState } from 'astro/hooks';
+
+// State declaration
+const [count, setCount] = useState(0);
+
+// Function definition
+function handleClick() {
+    setCount(count + 1);
+}
+---
+
+<!-- Component usage with props -->
+<MyComponent title="Hello Astro!" />
+
+<!-- Event handling -->
+<button type="button" on:click={handleClick}>
+    Click me
+</button>
+
+<!-- Displaying state -->
+<p>Count: {count}</p>
+
+<!-- Conditional rendering -->
+{count > 5 ? (
+    <p>{count} is greater than 5</p>
+) : (
+    <p>{count} is less than or equal to 5</p>
+)}
+
+<!-- Looping -->
+<ul>
+    {Array.from({ length: 5 }, (_, i) => i + 1).map(number => (
+        <li>{number}</li>
+    ))}
+</ul>
+
+<!-- Slot usage -->
+<MyComponent>
+    <span slot="custom">This is a custom slot</span>
+</MyComponent>

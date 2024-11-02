@@ -1,0 +1,60 @@
+base_token: &base_token
+  value:          null
+  declaration:    null
+  definition:     null
+  readonly:       null
+  static:         null
+  deprecated:     null
+  abstract:       null
+  async:          null
+  modification:   null
+  documentation:  null
+  defaultLibrary: null
+
+base_sem_tokens: &base_sem
+# "type.modifier": "#color"
+  "*":
+    <<: *base_token
+  namespace:
+    <<: *base_token
+  enum:
+    <<: *base_token
+  interface:
+    <<: *base_token
+  struct:
+    <<: *base_token
+  typeParameter:
+    <<: *base_token
+  type:
+    <<: *base_token
+  parameter:
+    <<: *base_token
+  variable:
+    <<: *base_token
+  property:
+    <<: *base_token
+  enumMember:
+    <<: *base_token
+  decorator:
+    <<: *base_token
+  event:
+    <<: *base_token
+  function:
+    <<: *base_token
+  method:
+    <<: *base_token
+  macro:
+    <<: *base_token
+  label:
+    <<: *base_token
+  comment:
+    <<: *base_token
+  string:
+    <<: *base_token
+  number:
+    <<: *base_token
+  regexp:
+    <<: *base_token
+  operator:
+    <<: *base_token
+    

@@ -1,0 +1,9 @@
+=SUM(A1:A10)               // Sum of values in cells A1 through A10
+=AVERAGE(B1:B10)           // Average of values in cells B1 through B10
+=COUNT(C1:C10)             // Count of values in cells C1 through C10
+=IF(D1>10, "Yes", "No")    // Conditional logic
+=VLOOKUP(E1, A1:B10, 2, FALSE) // Lookup and reference
+=CONCATENATE("Hello", " ", "World") // Text manipulation
+=NOW()                     // Date and time
+=ARRAYFORMULA(A1:A3 * 2)   // Array manipulation
+=IMPORTRANGE("URL", "Sheet1!A1:B10") // External data

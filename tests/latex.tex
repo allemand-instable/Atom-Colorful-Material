@@ -1,0 +1,109 @@
+\documentclass{article}
+
+\usepackage[param=ok]{graphicx}
+\usepackage{amsmath}
+\usepackage{tikz}
+
+\title{LaTeX Example}
+\author{Author Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\chapter{bbbbbbbb}
+
+\chapter*{aaaaa}
+\section{Introduction}
+
+This is a text paragraph. You can include \textit{italic text}, \textbf{bold text}, and \texttt{monospaced text}. $y = \vec a x + b - \odot b$
+
+\section{Lists}
+
+\begin{itemize}
+    \item Bullet list item 1
+    \item Bullet list item 2
+\end{itemize}
+
+\begin{enumerate}
+    \item Numbered list item 1
+    \item Numbered list item 2
+\end{enumerate}
+
+\section{Table}
+
+\begin{tabular}{|c|c|}
+    \hline
+    Column 1 & Column 2 \\
+    \hline
+    Row 1 & 1 \\
+    Row 2 & 2 \\
+    \hline
+\end{tabular}
+
+\section{Figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{example.png}
+    \caption{Example figure}
+\end{figure}
+
+\section{Math}
+
+Here's a mathematical equation:
+
+\begin{equation}
+    y = mx + b
+\end{equation}
+
+\begin{comment}
+    ondoinsefos
+    pojsefoisf
+    fsonf
+\end{comment}
+
+$$
+A =
+\begin{bmatrix}
+a & b \\
+c & d \\
+\end{bmatrix}
+$$
+
+% Define a new command \hello that prints "Hello, World!"
+\newcommand{\hello}{Hello, World!}
+
+% Use the new command
+\hello
+
+% Redefine (renew) the command to print "Hello, LaTeX!"
+\renewcommand{\hello}{Hello, LaTeX!}
+
+% Use the renewed command
+\hello
+
+\input{/some/path/to/file.tex}
+\include{/some/path/to/file.tex}
+
+\begin{tikzpicture}
+    % Nodes
+    \node[draw, circle] (A) at (0,0) {A};
+    \node[draw, rectangle] (B) at (2,0) {B};
+    \node[draw, diamond, fill=yellow] (C) at (1,-2) {C};
+
+    % Edges
+    \draw[->] (A) -- (B);
+    \draw[->] (B) -- (C);
+    \draw[->] (C) -- (A);
+
+    % Loop
+    \draw[->] (A) edge[loop above] node {} (A);
+
+    % Grid
+    \draw[step=1cm,gray,very thin] (-1.9,-2.9) grid (2.9,0.9);
+\end{tikzpicture}
+
+
+\end{document}

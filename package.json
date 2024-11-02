@@ -21,9 +21,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Atom Colorful Material",
+                "label": "Atom Colorful Material Light",
+                "uiTheme": "vs",
+                "path": "./themes/Atom Colorful Material-color-theme-light.json"
+            },
+            {
+                "label": "Atom Colorful Material Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Atom Colorful Material-color-theme.json"
+                "path": "./themes/Atom Colorful Material-color-theme-dark.json"
             }
         ]
     }

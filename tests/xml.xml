@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a comment -->
+<root xmlns:example="http://www.example.com">
+    <element attribute="value">Text content</element>
+    <example:element>Text content with namespace</example:element>
+    <empty-element/>
+    <![CDATA[<not-an-element>]]>
+    <?processing-instruction target="value"?>
+</root>

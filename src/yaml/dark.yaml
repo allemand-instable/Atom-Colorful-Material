@@ -1,0 +1,11 @@
+name: Atom Colorful Material Dark
+type: dark
+colors: 
+tokenColors:
+  # Inspect Editor Tokens and Scope
+semanticHighlighting: true
+semanticTokenColors:
+  # $ theming semantic :
+  # 🌐 https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-coloring-in-color-themes
+  # $ std semantic tokens :
+  # 🌐 https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#standard-token-types-and-modifiers

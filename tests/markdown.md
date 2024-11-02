@@ -10,6 +10,15 @@
 
 ###### TITLE 6
 
+<!-- this is a comment -->
+
+<!-- 
+  ~this one makes use of
+  *an extension for coloring
+  $comments
+-->
+
+
 $\vec a = \int\limits_a^b f d \mu \times \vec u$
 
 > quote
@@ -38,3 +47,6 @@ def function(lol):
 aaaaaaaaaaaaaaa
 
 [link name](link)
+
+- [x]
+- [ ]

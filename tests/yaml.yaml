@@ -1,0 +1,42 @@
+# Scalar
+string: "Hello, World"
+
+# Boolean
+boolean: true
+
+# Null
+null_value: null
+
+# Integer
+integer: 10
+
+# Float
+float: 3.14
+
+# Timestamp
+timestamp: 2001-12-15T02:59:43.1Z
+
+# Sequence
+sequence:
+  - item1
+  - item2
+  - item3
+
+# Mapping
+mapping:
+  key1: value1
+  key2: value2
+  key3: value3
+
+# Multiline string
+multiline: |
+  This is a very long string
+  that contains several lines
+  of text.
+
+# Anchor and alias
+base: &base
+  name: Everyone
+derived: 
+  <<: *base
+  age: 10
